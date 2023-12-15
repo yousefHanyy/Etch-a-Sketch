@@ -1,0 +1,37 @@
+<!-- 
+     todo Create a page with 16x16 grid of square divs!
+            *Preferably using flexbox.
+               todo Create a big container for the grid made of square divs with a fixed width and height.
+               ?Based on the specified width * height value given (16x16), small square divs should be added in the big container.
+                    todo: make an alert pop up that takes the grid width*height value.
+                    todo: based on that value the main big container will be filled up with divs.
+                         todo: to fill up the big container with divs, we can make a loop that compares the index value to the product of widthxheight (i<width*height;i++).
+                              todo: then create divs using createElement and appending them to the main container.
+                         *while doing all of that we need to give these divs suitable styling.
+                              *the boxes preferably shouldn't have any borders or margins so that they can stick to each other and form some sort of sketchpad.
+                              
+     todo Set up a hover effect so that the grid divs change colors when your mouse passes over them 
+          ! ///LEAVING A PIXELATED TRAIL THROUGH YOUR GRID LIKE A PEN WOULD\\\
+     todo Add a button to the top of the screen that will ask the user the number of squares per side of the new grid(ex: 16x16 or 64x64)
+            *You should be able to enter 64 and have a brand new 64x64 grid pop up 
+                ! ////without changing the total amount of pixels used.   
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Etch A Sketch</h1>
+    </header>
+    <main class="main">
+      <div class="side-buttons"></div>
+      <div class="canvas"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
