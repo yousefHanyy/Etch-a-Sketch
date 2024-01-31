@@ -30,9 +30,9 @@ body {
   align-items: center;
 }
 button {
-  margin: 10px 25px;
+  margin: 15px 25px;
   padding: 8px;
-  width: 250px;
+  width: 185px;
   height: 41px;
   border-radius: 15px;
   border: 1px solid black;
@@ -51,7 +51,7 @@ button:hover {
   font-weight: 600;
 }
 #sizeSlider {
-  width: 200px;
+  width: 190px;
   height: auto;
 }
 #colorPicker {
@@ -66,9 +66,12 @@ button:hover {
   border-radius: 50%;
 }
 .canvas {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: white;
   width: 500px;
   height: 500px;
 }
-/* use this palette:https://colorhunt.co/palette/5f6f52a9b388fefae0b99470 */
+/* use this palette:https://colorhuntchange button color when clicked css.co/palette/5f6f52a9b388fefae0b99470 */
+.active {
+  background-color: #5f6f52;
+}
