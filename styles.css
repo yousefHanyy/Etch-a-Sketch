@@ -46,14 +46,39 @@ button:hover {
   transform: scale(1.05);
   transition: 0.2s ease-in-out;
 }
+
+#sizeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 70%;
+  height: 16px;
+  background: #d3d3d3;
+  outline: none;
+  border-radius: 10px;
+}
+
+#sizeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #a87b4d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sizeSlider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #a87b4d;
+  border-radius: 50%;
+  cursor: pointer;
+}
 .size-Value {
   font-size: 20px;
   font-weight: 600;
 }
-#sizeSlider {
-  width: 190px;
-  height: auto;
-}
+
 #colorPicker {
   width: 80px;
   height: 80px;
@@ -71,7 +96,6 @@ button:hover {
   width: 500px;
   height: 500px;
 }
-/* use this palette:https://colorhuntchange button color when clicked css.co/palette/5f6f52a9b388fefae0b99470 */
 .active {
   background-color: #5f6f52;
 }
