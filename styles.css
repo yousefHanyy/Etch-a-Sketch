@@ -95,6 +95,7 @@ button:hover {
   background-color: white;
   width: 500px;
   height: 500px;
+  display: flex;
 }
 .active {
   background-color: #5f6f52;
